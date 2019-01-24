@@ -1,2 +1,2 @@
-##### Replace (inplace) '../SolverData/Lookup' with '/experiment' in all files in directories matching the experssion thermal-single-bead-scaling-ts* 
-` find thermal-single-bead-scaling-ts* -type f -exec sed -i 's+../SolverData/Lookup+/experiment+g' {} \;`
+##### Replace (inplace) '../Data/Lookup' with '/experiment' in all files in directories matching the experssion whatever-the-name-* 
+` find whatever-the-name-* -type f -exec sed -i 's+../Data/Lookup+/experiment+g' {} \;`
